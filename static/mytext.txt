@@ -1,0 +1,11 @@
+mysql> select * from student;
+ERROR 1146 (42S02): Table 'mydb.student' doesn't exist
+mysql> select * from students;
++-------+------+--------------+------+--------+------------+
+| regno | sid  | student_name | age  | gender | dob        |
++-------+------+--------------+------+--------+------------+
+|     1 | S1   | Moses        |   19 | M      | 1998-03-08 |
++-------+------+--------------+------+--------+------------+
+1 row in set (0.00 sec)
+
+mysql> exit

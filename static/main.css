@@ -1,0 +1,13 @@
+body {
+    background-color: slategray;
+    text-align:center;
+    font-size:25px;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;      
+}                                                                                                                                                                                     
+input {
+    width:200px;
+    height:30px;
+    border-radius: 10px;
+    border:none;
+}
